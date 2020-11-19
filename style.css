@@ -1,0 +1,494 @@
+@font-face
+{
+    src:url(fonts/SairaStencilOne-Regular.ttf);
+    font-family: Saira;
+}
+
+@font-face
+{
+    src:url(fonts/Fenix-Regular.ttf);
+    font-family: Fenix;
+}
+
+@font-face
+{
+    src:url(fonts/Tangerine-Regular.ttf);
+    font-family: Tang;
+}
+
+@font-face
+{
+    src:url(fonts/Petrona-VariableFont_wght.ttf);
+    font-family: Petrona;
+}
+
+@font-face
+{
+    src:url(fonts/Playball-Regular.ttf);
+    font-family: Playball;
+}
+
+body
+{
+    background-color: black;
+}
+
+nav
+{
+    font-family: Saira;
+    font-weight: bolder;
+}
+
+nav h3
+{
+    font-family: Saira;
+    font-size: 26px;
+}
+
+nav h4
+{
+    padding-top: 3px;
+    padding-right: 50px;
+}
+
+nav h3:hover
+{
+    color:black;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+a h4:hover
+{
+    color: orangered;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+#banner_image
+{
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("Images/macho_cover.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#banner_content
+{
+    font-family: serif;
+    position: relative;
+    color: #C0392B;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    background-color: rgba(255,255,255,0.2);
+    max-height: 600px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+#login_background
+{
+    padding-top: 288px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("Images/login_background.jpg") no-repeat center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#login_content
+{
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.6);
+    max-width: 660px;
+}
+
+#signup_background
+{
+    padding-top: 120px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("Images/signup_background2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#signup_content
+{
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.1);
+    max-width: 660px;
+}
+
+#login_content a, #signup_content a
+{
+    color: white;
+}
+
+#login_content p a, #signup_content p a
+{
+    color: orangered;
+}
+
+#login_content h1
+{
+    color: orangered;
+    font-family: Playball;
+    font-size: 60px;
+}
+
+#signup_content h1
+{
+    color: #ECF0F1;
+    font-family: Playball;
+    font-size: 60px;
+}
+
+.form-group
+{
+    padding: 0 40px 0 40px;
+}
+
+#signup_background .form-group
+{
+    padding: 8px 65px 0 65px;
+}
+
+#signup_background .form-control
+{
+    color: black;
+    background-color: rgba(255,255,255,0.8);
+}
+
+p
+{
+    padding: 10px;
+    color: #ECF0F1;
+}
+
+img
+{
+    padding: 5px;
+    padding-top: 10px;
+}
+
+#banner_image2
+{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: black;
+    background: url("Images/transition5.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#banner_image2 div
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer
+{
+    border-top: 3px solid black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #171515;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.fb
+{
+    color: orangered;
+}
+
+.fb:hover
+{
+    color: orangered;
+}
+
+.fb li:hover
+{
+    color: orangered;
+    box-shadow: 0 0 15px orangered;
+    text-shadow: 0 0 15px orangered;
+}
+
+.tweet
+{
+    color: #26A4F2;
+}
+
+.tweet:hover
+{
+    color: #26A4F2;
+}
+
+.tweet li:hover
+{
+    color: #26A4F2;
+    box-shadow: 0 0 15px #1DA1F2;
+    text-shadow: 0 0 15px #1DA1F2;
+}
+
+.insta
+{
+    color: #E23670;
+}
+
+.insta:hover
+{
+    color: #E23670;
+}
+
+.insta li:hover
+{
+    color: #E23670;
+    box-shadow: 0 0 15px #E1306C;
+    text-shadow: 0 0 15px #E1306C;
+}
+
+.lnkdIn
+{
+    color: #2a6cbb;
+}
+
+.lnkdIn:hover
+{
+    color: #2a6cbb;
+}
+
+.lnkdIn li:hover
+{
+    color: #2a6cbb;
+    box-shadow: 0 0 15px #2867B2;
+    text-shadow: 0 0 15px #2867B2;
+}
+
+.ghub
+{
+    color: red;
+}
+
+.ghub:hover
+{
+    color: red;
+}
+
+.ghub li:hover
+{
+    color: red;
+    box-shadow: 0 0 15px #ff0000;
+    text-shadow: 0 0 15px #ff0000;
+}
+
+.foot
+{
+    font-weight: bolder;
+    padding-top: 15px;
+    color: white;
+    font-family: Petrona;
+}
+
+.foot h5
+{
+    font-weight: bolder;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.foot h6
+{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.caption
+{
+    font-family: Lobster;
+    text-align: center;
+}
+
+.caption h3
+{
+    font-weight: bolder;
+}
+
+.caption p
+{
+    color: black;
+    font-size: 16px;
+}
+
+ul
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+ul li
+{
+    position: relative;
+    display: block;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+ul li:before
+{
+    position: absolute;
+    content:'';
+    top:0;
+    left:0;
+    background: #d35400;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+ul a:hover:before
+{
+    filter: blur(3px);
+    transform: scale(1.2);
+    /*box-shadow: 0 0 15px #d35400;*/
+}
+
+/*ul li:nth-child(1):hover:before
+{
+    box-shadow: 0 0 15px #4267B2;
+}
+
+ul li:nth-child(1):hover
+{
+    color: #456cba;
+    box-shadow: 0 0 15px #4267B2;
+    text-shadow: 0 0 15px #4267B2;
+}
+
+ul li:nth-child(2):hover:before
+{
+    box-shadow: 0 0 15px #1DA1F2;
+}
+
+ul li:nth-child(2):hover
+{
+    color: #26A4F2;
+    box-shadow: 0 0 15px #1DA1F2;
+    text-shadow: 0 0 15px #1DA1F2;
+}
+
+ul li:nth-child(3):hover:before
+{
+    box-shadow: 0 0 15px #E1306C;
+}
+
+ul li:nth-child(3):hover
+{
+    color: #E23670;
+    box-shadow: 0 0 15px #E1306C;
+    text-shadow: 0 0 15px #E1306C;
+}
+
+ul li:nth-child(4):hover:before
+{
+    box-shadow: 0 0 15px #2867B2;
+}
+
+ul li:nth-child(4):hover
+{
+    color: #2a6cbb;
+    box-shadow: 0 0 15px #2867B2;
+    text-shadow: 0 0 15px #2867B2;
+}
+
+ul li:nth-child(5):hover:before
+{
+    box-shadow: 0 0 15px #ff0000;
+}
+
+ul li:nth-child(5):hover
+{
+    color: #ff1a1a;
+    box-shadow: 0 0 15px #ff0000;
+    text-shadow: 0 0 15px #ff0000;
+}
+
+ul li:hover
+{
+    color: #ffa502;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+}*/
+
+.jumbotron
+{
+    max-width: 660px;
+    margin-top: 250px;
+}
+
+.jumbotron p
+{
+    color: black;
+}
+
+.panel
+{
+    width: 100%;
+    margin-top: 200px;
+    color: black;
+    background-color: #f8f8f8;
+}
+
+.thumbnail:hover
+{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+    border: 2px solid orangered;
+}

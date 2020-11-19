@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css"><!-- Linking Bootstrap -->
+        <script type="text/javascript" src="bootstrap/js/jquery-3.1.1.min.js"></script><!--JQuery Library-->
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script><!-- Using default bootstrap scripting -->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-top navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand"><h3 style="margin-top: 5px"><span class="glyphicon glyphicon-king"></span> MACHO</h3></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ol class="nav navbar-nav navbar-right">
+                        <li><a href="login.html"><h4><span class="glyphicon glyphicon-off"></span></h4></a></li>
+                    </ol>
+                </div>
+            </div>
+        </nav>
+        
+        <div id="signup_background">
+            <div class="container">
+                <div id="signup_content" class="col-xs-12 col-md-6 col-md-offset-3">
+                    <h1>Sign Up</h1><br>
+                    <div class="form-group">
+                            <input class="form-control" name="name" type="text" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" name="email" type="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" name="password" type="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" name="contact" type="text" placeholder="Contact">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" name="city" type="text" placeholder="City">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="address" rows="3" placeholder="Address"></textarea>
+                        </div>
+                    <p style="float: left; padding-left: 75px">Already have an account? <a href="login.html"> Login</a></p><button type="button" class="btn btn-danger" style="float: right; margin-right: 65px"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span></a></button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
