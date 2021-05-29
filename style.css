@@ -94,9 +94,9 @@ a h4:hover
 
 #login_background
 {
-    padding-top: 288px;
-    padding-left: 0px;
-    padding-bottom: 0px;
+    padding-top: 235px;
+    padding-left: 50px;
+    padding-bottom: 50px;
     margin-bottom: 0;
     text-align: center;
     color: #f8f8f8;
@@ -119,23 +119,20 @@ a h4:hover
 
 #signup_background
 {
-    padding-top: 120px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0;
-    margin-top: 0;
+    padding-top: 125px;
+    padding-left: 50px;
+    padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url("Images/signup_background2.jpg") no-repeat center;
+    background: url("Images/register2.jpg") no-repeat center;
     background-size: cover;
 }
 
 #signup_content
 {
     position: relative;
-    padding-top: 3%;
+    padding-top: 2%;
     padding-bottom: 4%;
-    margin-top: 2%;
     margin-bottom: 0%;
     border-radius: 6px;
     background-color: rgba(255,255,255,0.1);
