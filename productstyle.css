@@ -1,0 +1,77 @@
+@font-face
+{
+    src:url(fonts/SairaStencilOne-Regular.ttf);
+    font-family: Saira;
+}
+
+@font-face
+{
+    src:url(fonts/Fenix-Regular.ttf);
+    font-family: Fenix;
+}
+
+@font-face
+{
+    src:url(fonts/Tangerine-Regular.ttf);
+    font-family: Tang;
+}
+
+@font-face
+{
+    src:url(fonts/Petrona-VariableFont_wght.ttf);
+    font-family: Petrona;
+}
+
+@font-face
+{
+    src:url(fonts/Playball-Regular.ttf);
+    font-family: Playball;
+}
+
+nav
+{
+    font-family: Saira;
+    font-weight: bolder;
+}
+
+nav h3
+{
+    font-family: Saira;
+    font-size: 26px;
+}
+
+nav h4
+{
+    padding-top: 3px;
+    padding-right: 50px;
+}
+
+nav h3:hover
+{
+    color:black;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+a h4:hover
+{
+    color: orangered;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+h1,h3
+{
+    display: inline-block;
+}
+
+#productsbanner
+{
+    padding-top: 200px;
+    padding-bottom: 400px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("Images/productsbannerss.jpg") no-repeat center;
+    background-size: cover;
+}
+
